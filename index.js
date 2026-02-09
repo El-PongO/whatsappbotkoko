@@ -1,4 +1,4 @@
-const { Client, LocalAuth } = require('whatsapp-web.js');
+const { Client, LocalAuth, MessageMedia } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
 const QRCode = require('qrcode');
 const cron = require('node-cron');
@@ -165,10 +165,8 @@ client.on('message', async (message) => {
             // Generate QR code for payment
             const qrCodeData = await QRCode.toDataURL(paymentInfo);
             const base64Data = qrCodeData.split(',')[1];
-            const buffer = Buffer.from(base64Data, 'base64');
             
-            // Create media from buffer
-            const { MessageMedia } = require('whatsapp-web.js');
+            // Create media from base64 data
             const media = new MessageMedia('image/png', base64Data);
             
             let paymentMessage = `💳 *Informasi Pembayaran Kost* 💳\n\n`;
