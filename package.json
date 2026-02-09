@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "node index.js"
+    "dev": "node index.js",
+    "admin": "node admin.js",
+    "admin:list": "node admin.js list",
+    "admin:complaints": "node admin.js complaints"
   },
   "keywords": ["whatsapp", "bot", "boarding-home", "koko"],
   "author": "",
