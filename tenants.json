@@ -1,0 +1,18 @@
+{
+  "6281234567890@c.us": {
+    "name": "Budi Santoso",
+    "startDate": "2024-01-01",
+    "endDate": "2024-12-31",
+    "nextPaymentDate": "2024-03-01",
+    "monthlyRent": 1500000,
+    "roomNumber": "101"
+  },
+  "6289876543210@c.us": {
+    "name": "Siti Nurhaliza",
+    "startDate": "2024-02-01",
+    "endDate": "2024-08-31",
+    "nextPaymentDate": "2024-03-01",
+    "monthlyRent": 1800000,
+    "roomNumber": "202"
+  }
+}
