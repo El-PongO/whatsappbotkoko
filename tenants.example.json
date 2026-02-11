@@ -1,0 +1,10 @@
+{
+  "6281234567890@c.us": {
+    "name": "Nama Penghuni",
+    "startDate": "YYYY-MM-DD",
+    "endDate": "YYYY-MM-DD",
+    "nextPaymentDate": "YYYY-MM-DD",
+    "monthlyRent": 0,
+    "roomNumber": "000"
+  }
+}
